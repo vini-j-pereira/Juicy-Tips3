@@ -313,3 +313,81 @@ html {
     }
 }
 
+@media ( 1441px <= width <= 1921px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    .text1{
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+        width: 30%;
+        height: 90vh;
+    }
+
+    .text1 p{
+        color: var(--clr-white);
+        font-size: 4rem;
+        font-family: "Gimbal-Extended";
+        text-align: start;
+        width: 25vw;
+        background-color: var(--clr-dark-green-transp);
+        padding: 10px;
+        margin-left: 40px;
+    }
+
+    .imgFone{
+        display: flex;
+        margin-top: 152px;
+        position: relative !important;
+    }
+
+    .imgMobile{
+        display: none;
+    }
+
+    .imgPC{
+        display: flex;
+        width: 80rem;
+        margin-top: -140px;
+        margin-bottom: 0px;
+        margin-left: -268px;
+    }
+
+    .btnFone{
+        position: absolute !important;
+        width: 52%;
+        bottom: 26rem;
+        left: 10.8rem;
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .text2{
+        display: flex;
+        width: 30%;
+        align-items: end;
+        height: 90vh;
+    }
+
+    .text2 p{
+        color: var(--clr-white);
+        font-size: 4rem;
+        font-family: "Gimbal-Extended";
+        text-align: end;
+        width: 25vw;
+        background-color: var(--clr-dark-green-transp);
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .text2 span{
+        color: var(--clr-dark);
+    }
+}
+
+
