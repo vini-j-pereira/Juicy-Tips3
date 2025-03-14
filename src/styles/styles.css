@@ -147,13 +147,13 @@ html {
     .imgMobile{
         position: relative;
         width: 40rem;
-        margin-top: 12rem;
+        margin-top: 11rem;
         z-index: 0;
     }
 
     .btnFone{
         bottom: 14rem;
-        right: 12.2rem;
+        right: 13.5rem;
     }
 
 }
