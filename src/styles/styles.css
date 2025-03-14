@@ -53,7 +53,6 @@ html {
 }
 
 .imgFone{
-    position: relative;
     z-index: 0;
 }
 
@@ -62,6 +61,7 @@ html {
 }
 
 .imgMobile{
+    position: relative;
     width: 40rem;
     margin-top: 14rem;
     z-index: 0;
@@ -70,8 +70,8 @@ html {
 .btnFone{
     z-index: 99999;
     position: absolute;
-    bottom: 14rem;
-    right: 10.8rem;
+    bottom: 13rem;
+    right: 9.8rem;
     border: none;
     padding: 1rem;
     font-size: 1.6rem;
@@ -86,7 +86,6 @@ html {
     transform-origin: center;
     box-sizing: border-box;  
     will-change: transform; 
-}
 
 .btnFone:hover{
     background-color: var(--clr-dark);
@@ -96,6 +95,54 @@ html {
 .text2{
     display: none;
 }
+
+}
+
+@media ( 375px <= width <= 383px){
+    .imgMobile{
+        position: relative;
+        width: 40rem;
+        margin-top: 10rem;
+        z-index: 0;
+    }
+
+    .btnFone{
+        bottom: 15rem;
+        right: 8.5rem;
+    }
+}
+
+@media ( 384px <= width <= 389px){
+
+    .imgMobile{
+        position: relative;
+        width: 40rem;
+        margin-top: 15rem;
+        z-index: 0;
+    }
+
+    .btnFone{
+        bottom: 14rem;
+        right: 9.2rem;
+    }
+}
+
+@media ( 411px <= width <= 643px){
+
+    .imgMobile{
+        position: relative;
+        width: 40rem;
+        margin-top: 21rem;
+        z-index: 0;
+    }
+
+    .btnFone{
+        bottom: 14rem;
+        right: 11.8rem;
+    }
+}
+
+
 
 @media ( 644px <= width <= 999px){
 
@@ -186,6 +233,7 @@ html {
     .imgFone{
         display: flex;
         margin-top: 152px;
+        position: relative !important;
     }
 
     .imgMobile{
@@ -200,9 +248,10 @@ html {
     }
 
     .btnFone{
-        width: 46%;
+        position: absolute !important;
+        width: 45%;
         bottom: 26rem;
-        right: 9.9rem;
+        left: 11.6rem;
         padding: 1rem;
         font-size: 1.5rem;
     }
