@@ -98,11 +98,26 @@ html {
 
 }
 
-@media ( 375px <= width <= 383px){
+@media ( 375px <= width <= 378px){
     .imgMobile{
         position: relative;
         width: 40rem;
         margin-top: 10rem;
+        z-index: 0;
+    }
+
+    .btnFone{
+        bottom: 15rem;
+        right: 8.5rem;
+    }
+}
+
+@media ( 379px <= width <= 383px){
+
+    .imgMobile{
+        position: relative;
+        width: 40rem;
+        margin-top: 1rem;
         z-index: 0;
     }
 
