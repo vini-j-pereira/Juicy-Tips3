@@ -142,7 +142,7 @@ html {
     }
 }
 
-@media ( 413px <= width <= 427px){
+@media ( 413px <= width <= 426px){
 
     .imgMobile{
         position: relative;
@@ -153,9 +153,24 @@ html {
 
     .btnFone{
         bottom: 14rem;
-        right: 13.5rem;
+        right: 13.2rem;
     }
 
+}
+
+@media ( 427px <= width <= 480px){
+
+    .imgMobile{
+        position: relative;
+        width: 40rem;
+        margin-top: 13rem;
+        z-index: 0;
+    }
+
+    .btnFone{
+        bottom: 14rem;
+        right: 13.2rem;
+    }
 }
 
 @media ( 644px <= width <= 999px){
