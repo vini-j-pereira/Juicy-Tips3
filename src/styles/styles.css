@@ -142,7 +142,7 @@ html {
     }
 }
 
-@media ( 413px <= width <= 540px){
+@media ( 413px <= width <= 425px){
 
     .imgMobile{
         position: relative;
@@ -153,7 +153,7 @@ html {
 
     .btnFone{
         bottom: 14rem;
-        right: 11.8rem;
+        right: 12.2rem;
     }
 
 }
