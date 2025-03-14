@@ -142,7 +142,7 @@ html {
     }
 }
 
-@media ( 413px <= width <= 425px){
+@media ( 413px <= width <= 427px){
 
     .imgMobile{
         position: relative;
@@ -157,8 +157,6 @@ html {
     }
 
 }
-
-
 
 @media ( 644px <= width <= 999px){
 
